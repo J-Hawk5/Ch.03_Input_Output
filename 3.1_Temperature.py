@@ -13,6 +13,6 @@ In: -40  Out: ???
 
 '''
 
-
-
-
+temp_fahrenheit = int(input("Enter Temperature Fahrenheit:"))
+temp_celsius= (temp_fahrenheit-32)*5/9
+print("Temperature Celsius:", temp_celsius)
